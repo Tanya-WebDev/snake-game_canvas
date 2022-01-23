@@ -89,7 +89,7 @@ function snakeGame() {
         gameLevel = 10;
         speed = 18;
     }
-    if (gameScore === 5) {
+    if (gameScore === 50) {
         drawWinMessage();
         drawReloadButton();
         return;
